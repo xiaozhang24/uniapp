@@ -1,0 +1,426 @@
+{
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/public/weixin_bind",
+			"style": {
+				"navigationBarTitleText": "账号绑定",
+				"backgroundColorTop": "#f2f2f2",
+				"backgroundColorBottom": "#f2f2f2"
+			}
+		},
+		{
+			"path": "pages/home/calendar",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/course/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/course/course_classify",
+			"style": {
+				"navigationBarTitleText": "课程分类",
+				"backgroundColorTop": "#f2f2f2",
+				"backgroundColorBottom": "#f2f2f2"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "新闻列表",
+				"backgroundColorTop": "#f2f2f2",
+				"backgroundColorBottom": "#f2f2f2",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/news/news-cmt-list",
+			"style": {
+				"navigationBarTitleText": "评论",
+				"backgroundColorTop": "#fff",
+				"backgroundColorBottom": "#fff",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 0
+			}
+		}, {
+			"path": "pages/news/news-cmt-box",
+			"style": {
+				"navigationBarTitleText": "发表评论",
+				"backgroundColorTop": "#fff",
+				"backgroundColorBottom": "#fff"
+			}
+		}, {
+			"path": "pages/news/news-cmt-reply",
+			"style": {
+				"navigationBarTitleText": "回复",
+				"backgroundColorTop": "#fff",
+				"backgroundColorBottom": "#fff",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 0
+			}
+		}, {
+			"path": "pages/news/newsDetail",
+			"style": {
+				"navigationBarTitleText": "新闻详情",
+				"backgroundColorTop": "#fff",
+				"backgroundColorBottom": "#fff",
+				"onReachBottomDistance": 0
+			}
+		}, {
+			"path": "pages/news/news-search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"backgroundColorTop": "#fff",
+				"backgroundColorBottom": "#fff"
+			}
+		}, {
+			"path": "pages/news/news-video",
+			"style": {
+				"navigationBarTitleText": "新闻详情",
+				"backgroundColorTop": "#fff",
+				"backgroundColorBottom": "#fff",
+				"onReachBottomDistance": 0
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/user/notice",
+			"style": {
+				"navigationBarTitleText": "通知"
+			}
+		},
+		{
+			"path": "pages/user/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/user/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/user/userRecord",
+			"style": {
+				"navigationBarTitleText": "个人档案"
+			}
+		},
+		{
+			"path": "pages/user/aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/findPassword",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/public/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/home/appConfig",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		//应用相关
+		//请假
+		{
+			"path": "pages/apps/stuAskLeave/index",
+			"style": {
+				"navigationBarTitleText": "请假",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/apps/stuAskLeave/form",
+			"style": {
+				"navigationBarTitleText": "请假"
+			}
+		},
+		{
+			"path": "pages/apps/stuAskLeave/detail",
+			"style": {
+				"navigationBarTitleText": "请假详情"
+			}
+		},
+		//课程表
+		{
+			"path": "pages/apps/courseTable/index",
+			"style": {
+				"navigationBarTitleText": "选择课程表"
+			}
+		},
+		//课程表
+		{
+			"path": "pages/apps/courseTable/table",
+			"style": {
+				"navigationBarTitleText": "我的课程表"
+			}
+		},
+		{
+			"path": "pages/apps/courseTable/schoolTable",
+			"style": {
+				"navigationBarTitleText": "全校课程表"
+			}
+		},
+		//家长进校申请
+		{
+			"path": "pages/apps/parentEnter/index",
+			"style": {
+				"navigationBarTitleText": "家长进校",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/apps/parentEnter/form",
+			"style": {
+				"navigationBarTitleText": "家长进校"
+			}
+		},
+		{
+			"path": "pages/apps/parentEnter/form_car",
+			"style": {
+				"navigationBarTitleText": "家长进校"
+			}
+		},
+		//在线阅卷
+		{
+			"path": "pages/apps/readPaper/index",
+			"style": {
+				"navigationBarTitleText": "在线阅卷"
+			}
+		},
+		{
+			"path": "pages/apps/readPaper/teacherRead/index",
+			"style": {
+				"navigationBarTitleText": "教师阅卷"
+			}
+		},
+		{
+			"path": "pages/apps/readPaper/teacherRead/read-mp",
+			"style": {
+				"navigationBarTitleText": "教师阅卷"
+			}
+		},
+		{
+			"path": "pages/apps/readPaper/teacherRead/read",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		//新高考选科
+		{
+			"path": "pages/apps/newSubject/index",
+			"style": {
+				"navigationBarTitleText": "新高考选科"
+			}
+		},
+		{
+			"path": "pages/apps/newSubject/form",
+			"style": {
+				"navigationBarTitleText": "智能测试"
+			}
+		},
+		{
+			"path": "pages/apps/newSubject/chooseSubject",
+			"style": {
+				"navigationBarTitleText": "选科设置"
+			}
+		},
+		{
+			"path": "pages/apps/homeSchoolLink/index",
+			"style": {
+				"navigationBarTitleText": "家校通"
+			}
+		},
+		{
+			"path": "pages/apps/homeSchoolLink/inbox",
+			"style": {
+				"navigationBarTitleText": "收件箱",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/apps/homeSchoolLink/outbox",
+			"style": {
+				"navigationBarTitleText": "发件箱",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/apps/homeSchoolLink/email",
+			"style": {
+				"navigationBarTitleText": "发邮件",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/apps/homeSchoolLink/mailDetail",
+			"style": {
+				"navigationBarTitleText": "消息详情"
+			}
+		},
+		//教师档案
+		{
+			"path": "pages/apps/teacherRecord/index",
+			"style": {
+				"navigationBarTitleText": "教师档案",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/apps/teacherRecord/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/apps/teacherRecord/add",
+			"style": {
+				"navigationBarTitleText": "教师档案"
+			}
+		},
+		//学籍管理
+		{
+			"path": "pages/apps/studentRecord/index",
+			"style": {
+				"navigationBarTitleText": "学生档案",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/apps/studentRecord/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/apps/studentRecord/add",
+			"style": {
+				"navigationBarTitleText": "学生档案"
+			}
+		}
+	],
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#FF6D94",
+		"navigationBarTitleText": "dcloud",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#FF6D94",
+		"backgroundColorTop": "#FF6D94",
+		"backgroundColorBottom": "#FF6D94"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FF6D94",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/home_on.png"
+			},
+			{
+				"pagePath": "pages/course/index",
+				"text": "课程",
+				"iconPath": "static/img/tabbar/course.png",
+				"selectedIconPath": "static/img/tabbar/course_on.png"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"text": "新闻",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/news_on.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/tabbar/user.png",
+				"selectedIconPath": "static/img/tabbar/user_on.png"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

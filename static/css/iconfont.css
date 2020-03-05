@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1333858 */
+  src: url('https://at.alicdn.com/t/font_1333858_p23eonibcgj.eot');
+  src: url('https://at.alicdn.com/t/font_1333858_p23eonibcgj.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1333858_p23eonibcgj.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1333858_p23eonibcgj.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1333858_p23eonibcgj.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1333858_p23eonibcgj.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tfeduicon-pc:before {
+  content: "\e616";
+}
+
+.tfeduicon-dingding:before {
+  content: "\e709";
+}
+
+.tfeduicon-xiaochengxu:before {
+  content: "\e619";
+}
+
+.tfeduicon-weixingongzhonghao:before {
+  content: "\e612";
+}
+
+.tfedulock:before {
+  content: "\e613";
+}
+
+.tfeduicon-app:before {
+  content: "\e6b1";
+}
